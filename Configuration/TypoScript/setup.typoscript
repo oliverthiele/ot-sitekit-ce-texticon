@@ -1,0 +1,25 @@
+tt_content.ot_sitekitcetexticon =< lib.sitekitContentElement
+tt_content.ot_sitekitcetexticon {
+  templateName = CeTextIcon
+  layoutRootPaths {
+    20 = EXT:ot_sitekitcetexticon/Resources/Private/Templates/{$sitekit.frameworks.frontend.directory}/Layouts/
+  }
+
+  partialRootPaths {
+    20 = EXT:ot_sitekitcetexticon/Resources/Private/Templates/{$sitekit.frameworks.frontend.directory}/Partials/
+  }
+
+  templateRootPaths {
+    20 = EXT:ot_sitekitcetexticon/Resources/Private/Templates/{$sitekit.frameworks.frontend.directory}/Templates/
+  }
+
+  dataProcessing {
+    10 = files
+    10 {
+      as = icons
+      references.fieldName = assets
+      references.table = tt_content
+    }
+
+  }
+}

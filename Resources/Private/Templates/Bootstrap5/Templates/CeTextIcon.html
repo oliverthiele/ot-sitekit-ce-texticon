@@ -1,0 +1,31 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      lang="en" data-namespace-typo3-fluid="true">
+<f:spaceless>
+<div id="ce{data.uid}" class="h-100 flex-fill d-flex flex-column">
+    <div class="ot-sitekit-ce-texticon-icon text-center mb-4">
+        <f:if condition="{icons.0}">
+            <f:image image="{icons.0}" class="img-fluid" loading="lazy" maxWidth="96" height="80"/>
+        </f:if>
+    </div>
+    <div class="ot-sitekit-ce-texticon-icon text-center">
+        <f:if condition="{data.header_link}">
+            <f:then>
+                <f:link.typolink class="h3 d-block" parameter="{data.header_link}">
+                    {data.header}
+                </f:link.typolink>
+            </f:then>
+            <f:else>
+                <div class="h3">{data.header}</div>
+            </f:else>
+        </f:if>
+    </div>
+    <div class="ot-sitekit-ce-texticon-text text-center">
+        {data.bodytext -> f:format.html()}
+        <f:if condition="{irreButtons}">
+            <f:render partial="IrreButtons" section="Main" arguments="{data : data, irreButtons : irreButtons}"/>
+        </f:if>
+    </div>
+</div>
+</f:spaceless>
+</html>

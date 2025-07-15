@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" datatype="plaintext"
+		  original="EXT:ot_sitekitcetexticon/Resources/Private/Language/locallang_db.xlf"
+		  date="2025-07-14T17:05:17Z" product-name="ot-sitekitcetexticon">
+		<header/>
+		<body>
+			<trans-unit id="tt_content.CType.label" resname="tt_content.CType.label">
+				<source><![CDATA[Text & Icon]]></source>
+			</trans-unit>
+			<trans-unit id="tt_content.CType.description" resname="tt_content.CType.description">
+				<source>Displays an icon above a short text. This content element works particularly well with the grid container.</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

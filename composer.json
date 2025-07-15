@@ -1,0 +1,39 @@
+{
+	"name": "oliverthiele/ot-sitekit-ce-texticon",
+	"type": "typo3-cms-extension",
+	"description": "TYPO3 content element that displays an icon above text. Integrates with the Sitekit and ot-irrebuttons extensions.",
+	"homepage": "https://typo3.org",
+	"license": "GPL-2.0-or-later",
+	"authors": [
+		{
+			"name": "Oliver Thiele",
+			"email": "mail@oliver-thiele.de",
+			"homepage": "https://www.oliver-thiele.de",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"typo3/cms-core": "^13.4",
+		"oliverthiele/ot-sitekit-base": "*",
+		"oliverthiele/ot-irrebuttons": "^3.2.0"
+	},
+	"require-dev": {
+		"roave/security-advisories": "dev-latest"
+	},
+	"autoload": {
+		"psr-4": {
+			"OliverThiele\\OtSitekitcetexticon\\": "Classes/"
+		}
+	},
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "ot_sitekitcetexticon"
+		}
+	},
+	"keywords": [
+		"typo3",
+		"content element",
+		"icon",
+		"sitekit"
+	]
+}
