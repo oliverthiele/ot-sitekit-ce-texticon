@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
 	<file source-language="en" datatype="plaintext"
-		  original="EXT:ot_sitekitcetexticon/Configuration/Sets/OtJobs/labels.xlf"
+		  original="EXT:ot_sitekitcetexticon/Configuration/Sets/OtSitekitcetexticon/labels.xlf"
 		  date="2025-07-11T10:09:00Z" product-name="ot-sitekit-ce-texticon">
 		<header/>
 		<body>
 			<trans-unit id="label">
 				<source><![CDATA[Content Element: Text & Icon]]></source>
-			</trans-unit>
-			<trans-unit id="categories.otJobs">
-				<source><![CDATA[CE: Text & Icon]]></source>
 			</trans-unit>
 		</body>
 	</file>
