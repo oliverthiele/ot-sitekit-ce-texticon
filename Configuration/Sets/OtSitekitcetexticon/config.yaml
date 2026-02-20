@@ -1,1 +1,3 @@
 name: oliverthiele/ot-sitekit-ce-texticon
+dependencies:
+  - oliverthiele/ot-sitekit-base
