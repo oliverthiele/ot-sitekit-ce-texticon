@@ -1,0 +1,4 @@
+elements:
+  - ctype: ot_sitekitcetexticon
+    groups: [group_content_wide, group_content_small, group_cards]
+    grid: { minCols: 4, requiresFullWidth: false }
