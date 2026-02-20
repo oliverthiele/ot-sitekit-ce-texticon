@@ -8,7 +8,7 @@ $EM_CONF['ot_sitekitcetexticon'] = [
     'author_email' => 'mail@oliver-thiele.de',
     'state' => 'stable',
     'author_company' => 'Web Development Oliver Thiele',
-    'version' => '1.0.1',
+    'version' => '1.0.2',
     'constraints' =>
         [
             'depends' =>
