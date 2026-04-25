@@ -1,19 +1,34 @@
-# ot-sitekit-ce-texticon
+# OT SiteKit CE Text with Icon — TYPO3 Content Element
 
-This TYPO3 extension provides a content element that displays an icon above a text block.
-It is part of the TYPO3 Sitekit ecosystem.
+Content element that displays an icon above a text block for TYPO3 v13 and v14. Part of
+the [SiteKit ecosystem](https://packagist.org/packages/oliverthiele/ot-sitekit-base).
 
-## Requirements
+[![TYPO3](https://img.shields.io/badge/TYPO3-13.4%20%7C%2014.3-orange.svg)](https://typo3.org/)
+[![Packagist Version](https://img.shields.io/packagist/v/oliverthiele/ot-sitekit-ce-texticon.svg)](https://packagist.org/packages/oliverthiele/ot-sitekit-ce-texticon)
+[![PHP](https://img.shields.io/packagist/dependency-v/oliverthiele/ot-sitekit-ce-texticon/php.svg)](https://php.net/)
+[![License](https://img.shields.io/packagist/l/oliverthiele/ot-sitekit-ce-texticon.svg)](LICENSE)
+[![Changelog](https://img.shields.io/badge/Changelog-CHANGELOG.md-blue.svg)](CHANGELOG.md)
 
-- TYPO3 v13.4 or newer
-- [oliverthiele/ot-sitekit-base](https://packagist.org/packages/oliverthiele/ot-sitekit-base)
-- [oliverthiele/ot-irrebuttons](https://packagist.org/packages/oliverthiele/ot-irrebuttons)
+---
 
 ## Features
 
-- Adds a content element for an icon + text layout
-- Integrates optional button management below the text using `ot-irrebuttons`
-- Compatible with the `lib.sitekitContentElement` rendering structure from `ot-sitekit-base`
+- Icon above text block layout
+- Optional button management via `ot-irrebuttons`
+- Compatible with `lib.sitekitContentElement` from `ot-sitekit-base`
+
+---
+
+## Requirements
+
+| Package                        | Version           |
+|--------------------------------|-------------------|
+| `typo3/cms-core`               | `^13.4 \| ^14.3`  |
+| PHP                            | `>=8.3`           |
+| `oliverthiele/ot-sitekit-base` | `*`               |
+| `oliverthiele/ot-irrebuttons`  | `^4.0`            |
+
+---
 
 ## Installation
 
@@ -21,24 +36,22 @@ It is part of the TYPO3 Sitekit ecosystem.
 composer require oliverthiele/ot-sitekit-ce-texticon
 ```
 
-## TypoScript Integration
+### Include SiteSet
 
-Make sure to include the TypoScript set from this extension in your sitepackage.
-For example, in your `my-sitepackage/Configuration/Sets/Main/config.yaml` file
-(or wherever your sitepackage manages dependencies):
+Add the extension as a dependency in your site configuration
+(`config/sites/yoursite/config.yaml`):
 
 ```yaml
-name: example/my-sitepackage
-
 dependencies:
-- typo3/fluid-styled-content
-- oliverthiele/ot-sitekit-base
-- oliverthiele/ot-sitekit-base-container-cards
-# …
-- oliverthiele/ot-sitekit-ce-texticon
-# …
+    - oliverthiele/ot-sitekit-ce-texticon
 ```
+
+---
 
 ## License
 
-GPL-2.0-or-later
+GPL-2.0-or-later — see [LICENSE](LICENSE)
+
+## Author
+
+Oliver Thiele — [oliver-thiele.de](https://www.oliver-thiele.de)

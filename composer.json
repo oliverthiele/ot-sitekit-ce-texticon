@@ -1,7 +1,7 @@
 {
 	"name": "oliverthiele/ot-sitekit-ce-texticon",
 	"type": "typo3-cms-extension",
-	"description": "TYPO3 content element that displays an icon above text. Integrates with the Sitekit and ot-irrebuttons extensions.",
+	"description": "CE Text with icon - TYPO3 content element that displays an icon above text. Integrates with the Sitekit and ot-irrebuttons extensions.",
 	"homepage": "https://typo3.org",
 	"license": "GPL-2.0-or-later",
 	"authors": [
@@ -13,9 +13,10 @@
 		}
 	],
 	"require": {
-		"typo3/cms-core": "^13.4",
+		"php": ">=8.3",
+		"typo3/cms-core": "^13.4||^14.3",
 		"oliverthiele/ot-sitekit-base": "*",
-		"oliverthiele/ot-irrebuttons": "^3.2.0"
+		"oliverthiele/ot-irrebuttons": "^4.0"
 	},
 	"require-dev": {
 		"roave/security-advisories": "dev-latest"
