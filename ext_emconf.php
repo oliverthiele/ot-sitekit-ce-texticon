@@ -12,6 +12,7 @@ $EM_CONF['ot_sitekitcetexticon'] = [
     'constraints' => [
         'depends' => [
             'typo3' => '13.4.0-14.99.99',
+            'ot_icons' => '*',
             'ot_irrebuttons' => '4.0.0-4.99.99',
         ],
         'conflicts' => [],
