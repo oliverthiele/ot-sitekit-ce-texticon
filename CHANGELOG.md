@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [2.1.0] — 2026-06-23
+
+### Added
+
+- Per-element icon style selection via `icon_style` TCA select field
+- Icon rendering via `<i:icon>` ViewHelper with `icon_style` support, asset image as fallback
+- `otIconSelector` renderType for `icon_identifier` field when `ot-iconselector` is installed
+- `ot-icons` (`^2.1`) as required dependency
+- `ot-iconselector` as suggested dependency
+
+---
+
 ## [2.0.0] — 2026-04-25
 
 ### Added
@@ -35,7 +47,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial release
 
-[Unreleased]: https://github.com/oliverthiele/ot-sitekit-ce-texticon/compare/v2.0.0...HEAD
+[Unreleased]: https://github.com/oliverthiele/ot-sitekit-ce-texticon/compare/v2.1.0...HEAD
+[2.1.0]: https://github.com/oliverthiele/ot-sitekit-ce-texticon/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/oliverthiele/ot-sitekit-ce-texticon/compare/v1.0.2...v2.0.0
 [1.0.2]: https://github.com/oliverthiele/ot-sitekit-ce-texticon/compare/v1.0.0...v1.0.2
 [1.0.0]: https://github.com/oliverthiele/ot-sitekit-ce-texticon/releases/tag/v1.0.0

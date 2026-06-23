@@ -16,8 +16,11 @@
 		"php": ">=8.3",
 		"typo3/cms-core": "^13.4||^14.3",
 		"oliverthiele/ot-sitekit-base": "*",
-		"oliverthiele/ot-icons": "*",
+		"oliverthiele/ot-icons": "^2.1",
 		"oliverthiele/ot-irrebuttons": "^4.0"
+	},
+	"suggest": {
+		"oliverthiele/ot-iconselector": "Provides a visual icon selector with AJAX search and SVG preview for the icon_identifier field"
 	},
 	"require-dev": {
 		"roave/security-advisories": "dev-latest"
