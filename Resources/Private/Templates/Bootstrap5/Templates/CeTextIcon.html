@@ -1,11 +1,19 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      xmlns:i="http://typo3.org/ns/OliverThiele/OtIcons/ViewHelpers"
       lang="en" data-namespace-typo3-fluid="true">
 <f:spaceless>
 <div id="ce{data.uid}" class="h-100 flex-fill d-flex flex-column">
     <div class="ot-sitekit-ce-texticon-icon text-center mb-4">
-        <f:if condition="{icons.0}">
-            <f:image image="{icons.0}" class="img-fluid" loading="lazy" maxWidth="96" height="80"/>
+        <f:if condition="{data.icon_identifier}">
+            <f:then>
+                <i:icon identifier="{data.icon_identifier}" iconStyle="{data.icon_style}" size="3x" aria-hidden="true" />
+            </f:then>
+            <f:else>
+                <f:if condition="{icons.0}">
+                    <f:image image="{icons.0}" class="img-fluid" loading="lazy" maxWidth="96" height="80"/>
+                </f:if>
+            </f:else>
         </f:if>
     </div>
     <div class="ot-sitekit-ce-texticon-icon text-center">

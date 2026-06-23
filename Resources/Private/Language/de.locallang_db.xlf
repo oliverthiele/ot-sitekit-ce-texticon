@@ -13,6 +13,22 @@
 				<source>Displays an icon above a short text. This content element works particularly well with the grid container.</source>
 				<target>Zeigt ein Icon über einem kurzen Text. Dieses Inhaltselement funktioniert besonders gut mit dem Grid-Container.</target>
 			</trans-unit>
+			<trans-unit id="tt_content.icon_identifier.description" resname="tt_content.icon_identifier.description" approved="yes">
+				<source>Takes priority over the media element. If both are set, only the icon is displayed.</source>
+				<target>Hat Vorrang vor dem Medienelement. Wenn beides gesetzt ist, wird nur das Icon angezeigt.</target>
+			</trans-unit>
+			<trans-unit id="tt_content.icon_style" resname="tt_content.icon_style" approved="yes">
+				<source>Icon Style</source>
+				<target>Icon-Stil</target>
+			</trans-unit>
+			<trans-unit id="tt_content.icon_style.default" resname="tt_content.icon_style.default" approved="yes">
+				<source>Default (from site settings)</source>
+				<target>Standard (aus Site-Einstellungen)</target>
+			</trans-unit>
+			<trans-unit id="tt_content.assets.description" resname="tt_content.assets.description" approved="yes">
+				<source>Used as fallback if no icon is set.</source>
+				<target>Wird als Fallback verwendet, wenn kein Icon gesetzt ist.</target>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>
