@@ -13,10 +13,10 @@
 		}
 	],
 	"require": {
-		"php": ">=8.3",
-		"typo3/cms-core": "^13.4||^14.3",
+		"php": ">=8.4",
+		"typo3/cms-core": "^14.3",
 		"oliverthiele/ot-sitekit-base": "*",
-		"oliverthiele/ot-icons": "^2.1",
+		"oliverthiele/ot-icons": "^3.0",
 		"oliverthiele/ot-irrebuttons": "^4.0"
 	},
 	"suggest": {
