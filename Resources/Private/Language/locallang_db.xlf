@@ -1,28 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-	<file source-language="en" datatype="plaintext"
-		  original="EXT:ot_sitekitcetexticon/Resources/Private/Language/locallang_db.xlf"
-		  date="2025-07-14T17:05:17Z" product-name="ot-sitekitcetexticon">
-		<header/>
-		<body>
-			<trans-unit id="tt_content.CType.label" resname="tt_content.CType.label">
-				<source><![CDATA[Text & Icon]]></source>
-			</trans-unit>
-			<trans-unit id="tt_content.CType.description" resname="tt_content.CType.description">
-				<source>Displays an icon above a short text. This content element works particularly well with the grid container.</source>
-			</trans-unit>
-			<trans-unit id="tt_content.icon_identifier.description" resname="tt_content.icon_identifier.description">
-				<source>Takes priority over the media element. If both are set, only the icon is displayed.</source>
-			</trans-unit>
-			<trans-unit id="tt_content.icon_style" resname="tt_content.icon_style">
-				<source>Icon Style</source>
-			</trans-unit>
-			<trans-unit id="tt_content.icon_style.default" resname="tt_content.icon_style.default">
-				<source>Default (from site settings)</source>
-			</trans-unit>
-			<trans-unit id="tt_content.assets.description" resname="tt_content.assets.description">
-				<source>Used as fallback if no icon is set.</source>
-			</trans-unit>
-		</body>
-	</file>
+<xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en">
+  <file id="ot-sitekit-ce-texticon-locallang-db"
+        original="EXT:ot_sitekitcetexticon/Resources/Private/Language/locallang_db.xlf">
+    <unit id="tt_content.CType.label">
+      <segment>
+        <source><![CDATA[Text & Icon]]></source>
+      </segment>
+    </unit>
+    <unit id="tt_content.CType.description">
+      <segment>
+        <source>Displays an icon above a short text. This content element works particularly well with the grid container.</source>
+      </segment>
+    </unit>
+    <unit id="tt_content.icon_identifier.description">
+      <segment>
+        <source>Takes priority over the media element. If both are set, only the icon is displayed.</source>
+      </segment>
+    </unit>
+    <unit id="tt_content.icon_style">
+      <segment>
+        <source>Icon Style</source>
+      </segment>
+    </unit>
+    <unit id="tt_content.icon_style.default">
+      <segment>
+        <source>Default (from site settings)</source>
+      </segment>
+    </unit>
+    <unit id="tt_content.assets.description">
+      <segment>
+        <source>Used as fallback if no icon is set.</source>
+      </segment>
+    </unit>
+  </file>
 </xliff>
