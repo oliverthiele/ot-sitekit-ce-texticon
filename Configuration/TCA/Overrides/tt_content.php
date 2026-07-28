@@ -8,7 +8,7 @@ use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 defined('TYPO3') or die();
 
 $key = 'ot_sitekitcetexticon';
-$languageFile = 'LLL:EXT:' . $key . '/Resources/Private/Language/locallang_db.xlf:';
+$languageFile = $key . '.db:';
 
 ExtensionManagementUtility::addTcaSelectItem(
     'tt_content',
@@ -52,7 +52,7 @@ $GLOBALS['TCA']['tt_content']['palettes']['texticon_headers'] = [
 $GLOBALS['TCA']['tt_content']['types'][$key] = [
     'showitem' => '
             --palette--;;texticon_headers,
-            bodytext,--div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:media,icon_identifier,icon_style,assets,
+            bodytext,--div--;core.form.tabs:media,icon_identifier,icon_style,assets,
         ',
     'columnsOverrides' => [
         'icon_identifier' => [
