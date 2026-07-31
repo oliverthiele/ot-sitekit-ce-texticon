@@ -7,6 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [4.0.0] — 2026-07-31
+
+### Changed
+
+- **Breaking:** Require `oliverthiele/ot-irrebuttons ^5.0`
+- **Breaking:** Require `oliverthiele/ot-sitekit-base ^1.0`, replacing the `*`
+  wildcard that dated from before the base extension had a tagged release
+
+### Fixed
+
+- `ext_emconf.php` did not declare `ot_sitekitbase` under `depends`, although
+  `composer.json` requires it. A non-Composer installation therefore never
+  verified that dependency
+- `ext_emconf.php` left `suggests` empty, while `composer.json` suggests
+  `ot-iconselector` — the extension uses its selector for the
+  `icon_identifier` field when it is installed
+
+---
+
 ## [3.0.0] — 2026-07-28
 
 ### Changed
@@ -63,7 +82,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial release
 
-[Unreleased]: https://github.com/oliverthiele/ot-sitekit-ce-texticon/compare/v3.0.0...HEAD
+[Unreleased]: https://github.com/oliverthiele/ot-sitekit-ce-texticon/compare/v4.0.0...HEAD
+[4.0.0]: https://github.com/oliverthiele/ot-sitekit-ce-texticon/compare/v3.0.0...v4.0.0
 [3.0.0]: https://github.com/oliverthiele/ot-sitekit-ce-texticon/compare/v2.1.0...v3.0.0
 [2.1.0]: https://github.com/oliverthiele/ot-sitekit-ce-texticon/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/oliverthiele/ot-sitekit-ce-texticon/compare/v1.0.2...v2.0.0

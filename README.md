@@ -25,9 +25,9 @@ the [SiteKit ecosystem](https://packagist.org/packages/oliverthiele/ot-sitekit-b
 |--------------------------------|-------------------|
 | `typo3/cms-core`               | `^14.3`           |
 | PHP                            | `>=8.4`           |
-| `oliverthiele/ot-sitekit-base` | `*`               |
+| `oliverthiele/ot-sitekit-base` | `^1.0`            |
 | `oliverthiele/ot-icons`        | `^3.0`            |
-| `oliverthiele/ot-irrebuttons`  | `^4.0`            |
+| `oliverthiele/ot-irrebuttons`  | `^5.0`            |
 
 ---
 
