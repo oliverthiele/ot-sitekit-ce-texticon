@@ -32,7 +32,11 @@
 	},
 	"extra": {
 		"typo3/cms": {
-			"extension-key": "ot_sitekitcetexticon"
+			"extension-key": "ot_sitekitcetexticon",
+			"version": "4.0.0",
+			"Package": {
+				"providesPackages": {}
+			}
 		}
 	},
 	"keywords": [
